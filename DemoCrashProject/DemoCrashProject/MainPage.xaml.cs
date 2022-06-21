@@ -14,6 +14,12 @@ namespace DemoCrashProject
         {
             InitializeComponent();
         }
+
+        void Button_Clicked(System.Object sender, System.EventArgs e)
+        {
+            var dict = new Dictionary<string, string>();
+            Console.WriteLine(dict["crash"]);
+        }
     }
 }
 
